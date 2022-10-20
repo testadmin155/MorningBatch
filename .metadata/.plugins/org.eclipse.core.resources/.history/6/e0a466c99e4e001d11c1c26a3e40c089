@@ -1,0 +1,12 @@
+package TestingSuite;
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+		Encapsulation obj = new Encapsulation();
+		obj.SSN;
+		obj.employeeid;
+
+	}
+
+}

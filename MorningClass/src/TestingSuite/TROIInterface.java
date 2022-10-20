@@ -1,0 +1,11 @@
+package TestingSuite;
+
+public interface TROIInterface {
+	
+	public void Calling ();
+	public void CallEnding ();
+	public void Messages ();
+	public void CallDivert ();
+	public void mobilesecurity();
+
+}

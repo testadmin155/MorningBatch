@@ -1,0 +1,16 @@
+package TestingSuite;
+
+public class Localandinstancevariable {
+
+	int x = 10;
+	
+	public void num()
+	{
+		System.out.println(x);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package TestingSuite;
+
+public class constructor {
+	
+	public void getdata() 
+	{
+		System.out.println("I am a Method");
+	}
+	
+	public constructor()
+	{
+		System.out.println("I am a constructor");
+	}
+
+	public static void main(String[] args) {
+		
+		constructor obj = new constructor();
+		//obj.getdata();
+		
+	}
+
+}

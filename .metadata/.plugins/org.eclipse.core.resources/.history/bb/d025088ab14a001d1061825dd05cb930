@@ -1,0 +1,11 @@
+package TestingSuite;
+
+public class Subclass1 extends SuperClass{
+
+	public static void main(String[] args) {
+		Subclass1 child1 = new Subclass1();
+		child1.money();
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package TestingSuite;
+
+public interface TROIInterface {
+	
+	public void Calling ();
+
+	
+
+}

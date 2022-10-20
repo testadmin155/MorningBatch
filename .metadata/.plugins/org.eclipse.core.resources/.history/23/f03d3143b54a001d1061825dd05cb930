@@ -1,0 +1,18 @@
+package TestingSuite;
+
+public class Localandinstancevariable {
+
+	int x = 10; // instance variable
+	
+	public void num()
+	{
+		System.out.println(x);
+	}
+	
+	public static void main(String[] args) {
+		Localandinstancevariable obj = new Localandinstancevariable();
+		obj.num();
+
+	}
+
+}

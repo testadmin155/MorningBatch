@@ -1,0 +1,28 @@
+package TestingSuite;
+
+public class FirstClass {
+	
+	public void Login()
+	{
+		System.out.println("username");
+		System.out.println("Password");
+		System.out.println("CLick on Login Button");
+	}
+	
+	public static void Logout()
+	{
+		System.out.println("Logout code");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		//System.out.println("Testing");
+		
+		FirstClass x = new FirstClass();
+		x.Login();
+		//x.Logout();
+		Logout();
+	}
+
+}

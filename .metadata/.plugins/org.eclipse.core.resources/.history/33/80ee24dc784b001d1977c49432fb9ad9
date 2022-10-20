@@ -1,0 +1,18 @@
+package package1;
+
+public class class1 {
+	
+	public void PublicMethod()
+	{
+		System.out.println("I am a public Method");
+	}
+
+	public static void main(String[] args) {
+		// 4 types of access modifiers
+		//public, default, protected and private
+		
+		
+
+	}
+
+}

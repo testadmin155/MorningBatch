@@ -1,0 +1,17 @@
+package TestingSuite;
+
+public abstract class TrafficSignaling {
+
+	public void getData() {
+		
+		System.out.println("This is a Method");
+	}
+	
+	public abstract void Scrolling();
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

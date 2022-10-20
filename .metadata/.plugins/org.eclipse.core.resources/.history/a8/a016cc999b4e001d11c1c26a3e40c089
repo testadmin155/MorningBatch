@@ -1,0 +1,23 @@
+package TestingSuite;
+
+public class wrapperClass {
+
+	public static void main(String[] args) {
+		/*wrapper class
+		primitiver Datatypes
+		
+		int  - Integer
+		char	- Character
+		double  - Double 
+		boolean  - Boolean
+		float  - Float
+		*/
+		
+		String mobile = "29,990";
+		String headset = "1000";
+		
+		String totalamount = mobile+headset;
+		System.out.println(totalamount);
+	}
+
+}

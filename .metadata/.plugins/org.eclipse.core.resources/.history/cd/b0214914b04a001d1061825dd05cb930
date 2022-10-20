@@ -1,0 +1,26 @@
+package TestingSuite;
+
+public class SubClass {
+
+	public void Freetime()
+	{
+		System.out.println("Freetime");
+		
+	}
+	
+	public void student()
+	{
+		System.out.println("Student");
+	}
+	
+	public void Scooty()
+	{
+		System.out.println("SportsBike");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

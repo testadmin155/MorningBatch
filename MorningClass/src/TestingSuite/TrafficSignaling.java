@@ -1,0 +1,30 @@
+package TestingSuite;
+
+public abstract class TrafficSignaling {
+
+public void GreenLight() {
+		
+		System.out.println("GO");
+	}
+	
+   public void RedLight() {
+		
+		System.out.println("Stop");
+	}
+
+   public void OrangeLight() {
+	
+	System.out.println("wait");
+}
+	
+	public abstract void greenlightwaittime();
+	public abstract void Redlightwaittime();
+	public abstract void Orangelightwaittime();
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package TestingSuite;
+
+import java.util.ArrayList;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		/*List - ArrayList, LinkedList, Vector
+		 * Set - HashSet, LinkedHashSet, TreeSet
+		 * MAP - - HashMap, TreeMap, LinkedHashMap
+		 */
+		
+		//ArrayList
+		
+		//int x[] = {5,10,14,13,17};
+	/*	int y[] = new int[5];
+		y[0]=40;
+		y[1]=50;
+		y[2]=90;
+		y[3]=90;
+		y[4]=66;
+		System.out.println(y[]);
+		//y[5]=77;*/
+		
+		ArrayList<String> names = new ArrayList<String>();
+		//ArrayList<Integer> names = new ArrayList<Integer>();
+		
+		names.add("anees");
+		names.add("shaik");
+		names.add("Pushpa");
+		names.add("challa");
+		names.add("cherry");
+		names.add("anees");
+		names.add(30);
+		
+		
+		System.out.println(names);
+		names.add(3, "testing");
+		System.out.println(names);
+		names.remove(5);
+		System.out.println(names);
+		System.out.println(names.contains("shaik1"));
+		
+
+	}
+
+}

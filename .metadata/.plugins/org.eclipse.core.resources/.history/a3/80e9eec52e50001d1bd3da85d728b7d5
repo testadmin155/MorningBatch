@@ -1,0 +1,82 @@
+package TestingSuite;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		/*List - ArrayList, LinkedList, Vector
+		 * Set - HashSet, LinkedHashSet, TreeSet
+		 * MAP - - HashMap, TreeMap, LinkedHashMap
+		 */
+		
+		//ArrayList
+		
+		//int x[] = {5,10,14,13,17};
+	/*	int y[] = new int[5];
+		y[0]=40;
+		y[1]=50;
+		y[2]=90;
+		y[3]=90;
+		y[4]=66;
+		System.out.println(y[]);
+		//y[5]=77;*/
+		
+		//ArrayList<String> names = new ArrayList<String>();
+		//ArrayList<Integer> names = new ArrayList<Integer>();
+		/*ArrayList names = new ArrayList();
+		
+		names.add("anees");
+		names.add("shaik");
+		names.add("Pushpa");
+		names.add("challa");
+		names.add("cherry");
+		names.add("anees");
+		names.add(30);
+		
+		
+		System.out.println(names);
+		names.add(3, "testing");
+		System.out.println(names);
+		names.remove(5);
+		System.out.println(names);
+		System.out.println(names.contains("shaik1"));
+		System.out.println(names.get(5));
+		*/
+		
+		
+		
+		//Hashset
+		/*
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("anees");
+		hs.add("shaik");
+		hs.add("Pushpa");
+		hs.add("challa");
+		hs.add("cherry");
+		hs.add("anees");
+		
+		System.out.println(hs);
+		System.out.println(hs.get(5));
+*/
+		
+		//HashMap
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(1, "Anees");
+		hm.put(2, "Pushpa");
+		hm.put(6, "Cherry");
+		hm.put(4, "Shaik");
+		hm.put(12, "Challa");
+		
+		System.out.println(hm.get(2));
+		System.out.println(hm.get(12));
+		System.out.println(hm.get(5));
+		System.out.println(hm);
+		
+		hm.containsKey("Anees")
+		
+	}
+
+}

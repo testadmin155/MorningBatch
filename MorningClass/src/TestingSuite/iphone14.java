@@ -1,0 +1,81 @@
+package TestingSuite;
+
+public class iphone14 implements TROIInterface{
+
+	public static void main(String[] args) {
+		
+		iphone14	IP14 = new iphone14();
+		
+		IP14.Calling();
+		IP14.CallEnding();
+		IP14.CallDivert();
+		IP14.Facetime();
+		IP14.FrontCam();
+		IP14.Messages();
+		IP14.itunes();
+		IP14.iwatch();
+		IP14.RareCam();
+		IP14.mobilesecurity();
+	}
+	
+	public void iwatch()
+	{
+		System.out.println("iwatch");
+	}
+	
+	public void itunes()
+	{
+		System.out.println("itunes");
+	}
+	
+	public void Appstore()
+	{
+		System.out.println("Appstore");
+	}
+	
+	public void Facetime()
+	{
+		System.out.println("Facetime");
+	}
+	
+	public void FrontCam()
+	{
+		System.out.println("FrontCam 32MP");
+	}
+	
+	public void RareCam()
+	{
+		System.out.println("RareCam 64MP");
+	}
+	
+	@Override
+	public void Calling() {
+		System.out.println("Calling");
+		
+	}
+
+	@Override
+	public void CallEnding() {
+		System.out.println("CallEnding");
+		
+	}
+
+	@Override
+	public void Messages() {
+		System.out.println("Messages");
+		
+	}
+
+	@Override
+	public void CallDivert() {
+		System.out.println("CallDivert");
+		
+	}
+
+	@Override
+	public void mobilesecurity() {
+		System.out.println("mobilesecurity");
+		
+	}
+
+}

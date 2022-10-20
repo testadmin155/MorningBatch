@@ -1,0 +1,19 @@
+package TestingSuite;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		/*List - ArrayList, LinkedList, Vector
+		 * Set - HashSet, LinkedHashSet, TreeSet
+		 * MAP - - HashMap, TreeMap, LinkedHashMap
+		 */
+		
+		//ArrayList
+		
+		
+		
+		
+
+	}
+
+}

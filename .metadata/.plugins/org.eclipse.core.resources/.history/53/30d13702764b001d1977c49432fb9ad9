@@ -1,0 +1,17 @@
+package TestingSuite;
+
+public class constructor {
+	
+	public void getdata() 
+	{
+		System.out.println("data");
+	}
+
+	public static void main(String[] args) {
+		
+		constructor obj = new constructor();
+		//obj.getdata();
+		
+	}
+
+}

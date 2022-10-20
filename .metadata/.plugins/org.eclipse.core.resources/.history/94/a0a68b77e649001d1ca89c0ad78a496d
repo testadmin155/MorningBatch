@@ -1,0 +1,15 @@
+package TestingSuite;
+
+public class SecondClass {
+	
+	public void GetData()
+	{
+		System.out.println("Data");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package TestingSuite;
+
+public class Encapsulation {
+	
+	private int SSN;
+	private int AccountNumber;
+	private String employeename;
+	private String email;
+	
+
+	public static void main(String[] args) {
+		//Encapsulation is a datahidding
+		
+
+	}
+
+}

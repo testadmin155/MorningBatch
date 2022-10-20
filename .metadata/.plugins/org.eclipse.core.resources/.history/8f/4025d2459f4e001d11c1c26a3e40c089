@@ -1,0 +1,15 @@
+package TestingSuite;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		/*List
+		 * Set
+		 * MAP
+		 */
+		
+		
+
+	}
+
+}
